@@ -28,10 +28,21 @@ a{
 }
 
 
+.header-logo{
+    height:100px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 60px;
+}
+
+
 header{
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 
@@ -41,17 +52,17 @@ header{
     display: flex;
     justify-content: center;
     color: var(--kltr-color);
+    margin-top: 40px;
 }
 
 
 nav{
-    background-color: #111;
     display: flex;
     padding: 24px;
 
 
     a{
-        color: white;
+        color:var(--star-color);
         font-weight: 700;
         padding: 8px 15px;
         letter-spacing: 1px;
@@ -73,6 +84,7 @@ nav{
     gap: 80px;
     flex-wrap: wrap;
     justify-content: center;
+
 
     .merch1{
         position: relative;
@@ -199,13 +211,6 @@ h3{
 }
 
 
-footer{
-    background-image: url(../images/Raw_Edge_-_Acubi_Logo-removebg.png);
-    min-height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 #footer{
     display: flex;
     justify-content: center;
